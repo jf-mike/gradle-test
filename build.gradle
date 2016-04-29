@@ -31,6 +31,7 @@ apply plugin: 'maven-publish'
 
 dependencies {
     testCompile 'junit:junit:4.7'
+    testCompile 'junit-addons:junit-addons:1.4'
 }
 
 publishing {
